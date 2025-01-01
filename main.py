@@ -1,5 +1,3 @@
-from collections import Counter
-
 def count_words(text):
     
     words = text.split()
@@ -34,7 +32,8 @@ def main():
     character_count = count_characters(file_contents)
     for char, count in character_count.items():
         print(f"The {char} character was found {count} times")
-
+        
+    print("--- End report ---")
 
 if __name__ == "__main__":
     main()
