@@ -1,3 +1,12 @@
+class Book:
+    def __init__(self, title, author, genre, year):
+        self.title = title 
+        self.author = author 
+        self.genre = genre
+        self.year = year
+        
+frankenstein = Book("Frankenstein", "Mary Shelley", "Horror", 1818)
+
 def count_words(text):
     
     words = text.split()
