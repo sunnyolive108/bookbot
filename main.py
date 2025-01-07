@@ -6,6 +6,9 @@ class Book:
         self.year = year
         
 frankenstein = Book("Frankenstein", "Mary Shelley", "Horror", 1818)
+it = Book("The IT Book", "The IT Book", "IT", 2019)
+james_bond = Book("James Bond", "James Bond", "Action", 2019)
+bible = Book("The Bible", "The Bible", "Religion", 0)
 
 def count_words(text):
     
